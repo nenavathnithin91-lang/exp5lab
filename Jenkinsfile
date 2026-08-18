@@ -11,7 +11,7 @@ pipeline {
 
         stage('Compile') {
             steps {
-                sh 'g++ HelloWorld.cpp -o HelloWorld'
+                sh 'g++ helloworld.c++ -o HelloWorld'
             }
         }
 
