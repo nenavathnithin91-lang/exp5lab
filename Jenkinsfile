@@ -11,13 +11,13 @@ pipeline {
 
         stage('Compile') {
             steps {
-                sh 'g++ helloworld.c++ -o HelloWorld'
+                sh 'g++ addition.cpp -o addition'
             }
         }
 
         stage('Run') {
             steps {
-                sh './HelloWorld'
+                sh './addition'
             }
         }
     }
